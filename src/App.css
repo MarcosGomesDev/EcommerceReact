@@ -37,7 +37,15 @@ a {
   gap: 30px;
 }
 
+.button {
+  background-color: var(--color-232f3e);
+  color: #fff;
+  font-size: 14px;
+  padding: 13px 33px;
+  border-radius: 25px;
+}
 
-
-
-/* Header Part End Here */
+.button:hover {
+  background-color: var(--color-febd69);
+  color: var(--color-232f3e);
+}
