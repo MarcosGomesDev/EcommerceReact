@@ -68,7 +68,7 @@
     background-color: #f5f5f7;
 }
 
-.categories {
+.categories, .card-wrapper {
     background-color: #fff;
     box-shadow: 0 0 10px #0000001a;
     padding: 15px;
@@ -100,4 +100,11 @@
 .categories>div:nth-child(6),
 .categories>div:nth-child(7) {
     border-right: 1px solid #ededed;
+}
+
+.section-heading {
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 500;
+    margin-bottom: 30px;
 }
